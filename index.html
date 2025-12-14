@@ -12,7 +12,7 @@
     const video = document.getElementById("video");
     const rngNumber = Math.floor(Math.random() * 11); // 0–10
 
-    if (rngNumber != 10) {
+    if (rngNumber !== 10) {
       video.src = "attachment.mp4";
     } else {
       video.src = "attachment2.mp4";
